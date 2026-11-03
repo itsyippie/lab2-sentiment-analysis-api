@@ -4,9 +4,9 @@ A REST API built with **FastAPI** and **Hugging Face DistilBERT** to classify En
 
 ## Student Information
 
-- **Name:** [Your Name]
-- **Student ID:** [Your Student ID]
-- **Course:** Computational Thinking – Lab 2
+- **Name:** Đặng Nguyễn Yến Phương
+- **Student ID:** 25127230
+- **Course:** Computational Thinking
 
 ## Model
 
@@ -47,7 +47,6 @@ uvicorn main:app --reload
 
 Open Swagger UI: http://127.0.0.1:8000/docs
 
-*The model downloads automatically on the first run.*
 
 ## 5. API Endpoints
 
@@ -75,8 +74,6 @@ Open Swagger UI: http://127.0.0.1:8000/docs
 }
 ```
 
-*Confidence score is illustrative.*
-
 ## 6. Testing
 
 With the API server running, execute:
@@ -85,12 +82,6 @@ With the API server running, execute:
 python test_api.py
 ```
 
-The script tests API endpoints, positive/negative inputs, and input validation using `requests`.
-
 ## 7. Demo Video
 
-**Link:** [Add your video link here]
-
-The video demonstrates the model, source code, application startup, and API testing with at least two inputs.
-
-**Duration:** Maximum 5 minutes.
+**Link:** https://youtu.be/vYLrOMeBWJ0
